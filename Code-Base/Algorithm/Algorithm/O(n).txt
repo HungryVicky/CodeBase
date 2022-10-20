@@ -1,0 +1,78 @@
+Trivial Runtime Analysis
+**************************************
+
+If there is no input, then it’s called a constant time algorithm. For example:
+
+for (int i = 0; i < 1000000; i ++)
+      x++;
+
+above is O(1)
+------------------------------------------------------------------------------
+Let’s go through some code samples and analyze their runtime complexity.
+
+for (int i = 0; i < N; i ++)
+      x++;
+All we need to do is count the number of times the statement x++ will execute.
+Clearly, it’s N, so the time complexity is O(N), also called linear.
+------------------------------------------------------------------------------
+for (int i = 0; i < N; i++) 
+    for (int j = 0; j < i; j++) 
+        x++;
+How many times the statement x++ executes:
+So the time complexity is O(N^2), also called quadratic.
+---------------------------------------------------------------------------
+
+Logarithmic Runtime
+**************************************************
+
+Iterating powers of a number #
+Let’s analyze the loop below where we iterate over all powers of 2
+for (int i = 1; i <= N; i *= 2)
+    x++;
+    
+In Big-O notation, the time complexity is O(logN)
+
+A similar analysis gives O(logN) runtime for the loop below.
+for (int i = N; i >= 1; i /= 2)
+      x++;
+---------------------------------------------------------------------------
+Harmonic series #
+Consider the piece of code below:
+
+for (int i = 1; i <= N; i++)
+    for (int j = i; j <= N; j += i)
+        x++;
+
+Therefore, the time complexity is O(NlogN).
+---------------------------------------------------------------------------
+
+Non Trivial Runtime
+********************************************************
+
+Sum of powers #
+Take the code sample below:
+
+for (int i = 1; i <= N; i *= 2)
+    for (int j = 1; j <= i; j++)
+        x++;
+So, the run-time complexity is actually linear - O(N)
+-----------------------------------------------------------------------------
+
+Amortized Analysis
+*****************************************************************
+
+Consider this algorithm: We start with an array of size 2 
+and each operation adds one element to the array, we do this operation N times. 
+If the array is full, we see the current size of array say sz. 
+
+Adding to the array if it’s not empty: O(1)
+Copying array of size sz to a new location: O(sz)
+
+Total number of operations:
+
+1 + 1 + (1 + 2) + 1 + (1 + 4) + 1 + 1 + 1 + (1 + 8) + 1 + 1…
+
+=> (1 + 1 + ... + 1) N times + (2 + 4 + 8 + ... ) < N + 2N<=3N
+
+So, the complete algorithm runs in O(N) time
+Allocate the 2*sz memory and copy the array to its location so we have space for the new sz elements.
