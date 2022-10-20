@@ -1,0 +1,30 @@
+h1{
+font-family : "Ink free","MV Boli",sans-serif;
+font-size:25px;
+font-weight :10px;
+border-style:outset;
+border-radius: 10px;
+color:white;
+background : linear-gradient(red,orange,yellow,green);
+border-top-color:red;
+border-bottom-color:green;
+border-right-color:blue;
+border-left-color:blue;
+}
+
+
+	body{
+	background :linear-gradient(hotpink,pink);-
+	background-repeat: no-repeat;
+	background-position : center;
+	background-size : cover;
+	background-attachment : fixed;
+	
+	
+	}
+	
+	p{
+	
+	font-family : "Ink free","MV Boli",sans-serif;
+	
+	}

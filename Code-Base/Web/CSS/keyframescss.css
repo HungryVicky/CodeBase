@@ -1,0 +1,90 @@
+html{
+
+background : linear-gradient(#444444,black);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+background-attachment:fixed;
+
+}
+#p1{
+
+width:100px;
+height:50px;
+background:red;
+font-family:sans-serif;
+font-size:40px;
+text-align:center;
+margin:0px;
+
+animation :myAnimation;
+
+animation-duration:5s;
+animation-iteration-count:infinite;
+
+
+}
+
+@keyframes myAnimation{
+0%{background-color:white;}
+10%{background-color:green;}
+20%{background-color:blue;}
+30%{background-color:red;}
+40%{background-color:lightgray;}
+50%{background-color:purple;}
+60%{background-color:pink;}
+70%{background-color:hotpink;}
+80%{background-color:drakblue;}
+90%{background-color:yellow;}
+100%{background-color:white;}
+
+40%{opacity:0;}
+45%{opacity:0;}
+
+
+50%{transform :translate(710px,350px);}
+50%{font-size:300px}
+100%{transform: rotateZ(360deg);
+
+
+}
+
+@keyframes myColorAnimation{
+form{background-color:red;}
+to{background-color:blue;}
+
+
+}
+
+
+@keyframes myColorAnimation{
+
+0%{background-color:red;}
+25%{background-color:red;}
+50%{background-color:green;}
+75%{background-color:pink;}
+100%{background-color:yellow;}
+
+}
+
+@keyframes myRotateAnimation{
+100%{transform: rotateX(360deg);}
+100%{transform: rotateY(360deg);}
+100%{transform: rotateZ(360);}
+
+
+}
+
+@keyframes mytranslate{
+  50%{transform: translate(500px,500px);}
+ 
+}
+
+@keyframes myscale{
+50%{transform: scale(0.5,0.5);}
+}
+
+@keyframes myopacity{
+0%{opacity:0}
+50%{opacity:1}
+}

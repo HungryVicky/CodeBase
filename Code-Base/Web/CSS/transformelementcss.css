@@ -1,0 +1,26 @@
+p{
+width:100px;
+background-color:red;
+font-size:85px;
+text-align:center;
+margin:0px;
+
+}
+#p1{
+
+}
+#p2{
+transform: translateX(50px);
+transform: translateY(50px);
+transform: rotateX(180deg);
+transform: rotateY(180deg);
+transform: rotatez(180deg)
+transform: scaleY(0.5);
+transform: scalex(0.5);
+transform: scale(2,2);
+transform: skewY(45deg);
+
+transform: matrix(0.5,1,1,,0.5,0,0);
+
+
+}

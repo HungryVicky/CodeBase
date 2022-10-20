@@ -1,0 +1,35 @@
+h1{
+
+border: 1px solid;
+
+
+
+}
+
+
+	html{
+	margin-top: -21px;
+	margin-left: -9px;
+	
+	}
+	
+	p{font-family : "Ink free","MV Boli",sans-serif;
+	border-style:solid;
+	margin: 25px;
+	width :250px;
+	padding:25px;
+
+	
+	}
+	#p1{
+	
+	margin : 25px;
+	}
+	#p2{
+	margin: 50%;
+	
+	}
+	#p3{
+	
+	margin-left: auto;
+	}

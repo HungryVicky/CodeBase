@@ -1,0 +1,72 @@
+a:link{
+
+color:pink;
+}
+a:visited{
+
+color:orange;
+}
+
+button:hover{
+  background-color:green;
+
+}
+
+button:active{
+  background-color:darkgreen;
+
+}/*
+li:first-child{
+background-color:lightgreen;
+}
+li:last-child{
+background-color:lightgreen;
+}
+li:nth-child(3){
+background-color:lightgreen;
+}
+*/
+li:nth-child(4n+2){
+background-color:red;
+
+
+background-image : linear-gradient(to right,yellow,white);
+opacity:0.5;
+border:2px solid;
+}
+/*
+<!DOCTYPE html>
+<html>
+
+      <head>
+   
+           <meta charset = "utf-8">
+           <meta http-equiv = "refresh" content =  "11">
+           <meta name = "viewport" content = "width=device-width,intial-scale=1.0">
+           <link rel="stylesheet" type="text/css" href="C:\Users\Admin\Desktop\indexcss.css">
+   
+   
+       </head>
+       <body>
+	   
+	   
+          <a href="www.youtube.com/c/HungrySpikeShorts"><h1>Youtube</h1></a>
+		  <button type="button">press</button>
+  
+  <ul>
+    <li>this is item 1</li>
+	<li>this is item 2</li>
+	<li>this is item 3</li>
+	<li>this is item 4</li>
+	<li>this is item 5</li>
+	<li>this is item 6</li>
+	<li>this is item 7</li>
+	</ul>
+	
+  
+        </body>
+
+</html>
+
+*/
+

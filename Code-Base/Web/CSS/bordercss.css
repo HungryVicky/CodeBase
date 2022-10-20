@@ -1,0 +1,36 @@
+p{
+   font-family:"Ink free","MV Boli",sans-serif;
+   font-style:"italic";
+   font-size:"18px";
+   background-color:black;
+   color:white;
+   text-decoration:none;
+   font-width:"bold";
+   border-style:solid;
+   border-style:dashed;
+   border-style:dotted;
+   border-style:inset;
+   border-style:double;
+   border-color:blue;
+   border-style:outset;
+   padding : 5px;
+   border-radius:5px;
+   
+   }
+   
+   h1{
+   font-family:fantasy; 
+
+   border-top-style:dotted;
+   border-bottom-style:outset;
+   border-right-style:inset;
+   border-left-style:dashed;
+   border-top-color:yellow;
+   border-right-width:15px;
+   border-right-color:black;
+   
+   body{
+   
+   background-color:pink;
+   
+   }

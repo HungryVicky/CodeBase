@@ -1,0 +1,114 @@
+/*#p1{
+border:solid;
+
+text-align:left;
+}
+#p2{
+border:solid;
+text-align:right;
+}
+#p3{
+border:solid;
+text-align:center;
+}
+
+
+img{
+float:right;
+margin:5px;
+
+}
+div{
+
+border: 1px solid;
+width:300px;
+}
+html{
+background-image:linear-gradient(grey,black);
+
+}
+
+
+h1{
+border : 1px solid;
+background: yellow;
+width:200px;
+
+position: fixed;
+
+position: relative;
+
+position:sticky;
+
+position: static;
+ 
+}
+
+
+#box1{
+position:relative;
+border:1px solid;
+width:200px;
+height:200px;
+background-color:lightgray;
+}
+
+#box2{
+position:absolute;
+border:1px solid;
+width:100px;
+height:100px;
+background-color:gray;
+}
+*/
+
+<!DOCTYPE html>
+<html>
+
+      <head>
+   
+           <meta charset = "utf-8">
+           <meta http-equiv = "refresh" content =  "11">
+           <meta name = "viewport" content = "width=device-width,intial-scale=1.0">
+           <link rel="stylesheet" type="text/css" href="C:\Users\Admin\Desktop\indexcss.css">
+   
+   
+       </head>
+       <body>
+	   
+	<!-- <p id="p1">one</p>
+	   <p id="p2">two</ps>
+	   <p id="p3">three</p>
+	 
+	  <img src="C:\Users\Admin\Desktop\QR Code.png" style="width:150px"
+	  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 
+ 	  <div> &nbsp  &nbsp  &nbsp  &nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+	  
+  
+  
+  <h1>Fixed</h1>
+   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 
+	 
+	 <div id="box1">this is relative
+	 <div id="box2">this is relative</div></div>
+  -->
+        </body>
+
+</html>

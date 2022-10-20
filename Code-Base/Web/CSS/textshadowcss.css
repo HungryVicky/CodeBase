@@ -1,0 +1,13 @@
+h1{
+border :1px solid;
+padding:30px;
+width:200px;
+border-radius:10px;
+background-color:black;
+
+text-shadow: 5px 5px 7px  yellow, 0px -5px 7px red;
+
+box-shadow:10px 10px 5px #666666;
+
+}
+
